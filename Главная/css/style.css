@@ -391,11 +391,8 @@ body {
   }
 }
 
-.site-navigation-responsive ul li a:active {
+.site-navigation-responsive ul li a:hover {
   color: #11ABCC;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  transition: all 0.5s ease;
   background: #F1F1F1;
 }
 
@@ -427,9 +424,6 @@ body {
 .site-navigation-responsive ul li:hover ul {
   opacity: 1;
   left: 0px;
-  -webkit-transition: 0.25s linear opacity;
-  -moz-transition: 0.25s linear opacity;
-  transition: 0.25s linear opacity;
 }
 
 .site-navigation-responsive ul li ul li {
@@ -595,7 +589,7 @@ body {
 
 .cards {
   width: 90%;
-  height: 500px;
+  height: 400px;
   position: relative;
   top: 62px;
   left: 70px;

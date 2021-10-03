@@ -327,9 +327,8 @@ top: 70px;
 list-style:none;
 float:left;
 text-align:center;
-
-	opacity: 0.9;
-	border-radius: 0px 0px 20px 0px;
+opacity: 0.9;
+border-radius: 0px 0px 20px 0px;
 
 
 
@@ -340,8 +339,8 @@ text-decoration:none;
 display:inline-block;
 color:#fff;
 color: red;
-	font-family: "Montserrat";
-	font-weight: 600;
+font-family: "Montserrat";
+font-weight: 600;
 position: relative;
 top: -4px;
 left: -10px;
@@ -350,7 +349,6 @@ font-size: 15px;
 @media (max-width: 1067px){
 .site-navigation-responsive ul li a{
 	position: relative;
-
 	padding: -100px;
 }
 .site-navigation-responsive ul li{
@@ -358,11 +356,10 @@ font-size: 15px;
 	left: 10px;
 }
 }
-.site-navigation-responsive ul li a:active{
+.site-navigation-responsive ul li a:hover{
 color:#11ABCC;
--webkit-transition: all 0.5s ease;
--moz-transition: all 0.5s ease;
-transition: all 0.5s ease;
+
+
 background:#F1F1F1;
 }
 .site-navigation-responsive ul .current a {
@@ -390,9 +387,6 @@ border-radius: 10px;
 .site-navigation-responsive ul li:hover ul{
 opacity:1;
 left:0px;
--webkit-transition: 0.25s linear opacity;
--moz-transition: 0.25s linear opacity;
-transition: 0.25s linear opacity;  
 }
 .site-navigation-responsive ul li ul li {
 display:block;
@@ -589,7 +583,7 @@ height: 60%;
 .cards {
 
 width: 90%;
-height: 500px;
+height: 400px;
 position: relative;
 top: 62px;
 left: 70px;
