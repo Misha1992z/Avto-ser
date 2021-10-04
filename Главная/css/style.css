@@ -213,7 +213,7 @@ body {
   letter-spacing: 1px;
   font-size: 13px;
   position: relative;
-  left: 105px;
+  left: 0px;
   top: 10px;
   padding: 12px 5px;
   border-radius: 6px;
@@ -228,6 +228,10 @@ body {
     position: relative;
     left: 20px;
     top: -35px;
+  }
+  .header__list a span {
+    position: relative;
+    left: -120px;
   }
 }
 
@@ -374,7 +378,7 @@ body {
   font-weight: 600;
   position: relative;
   top: -4px;
-  left: -10px;
+  left: 5px;
   font-size: 15px;
 }
 
@@ -385,7 +389,9 @@ body {
   }
   .site-navigation-responsive ul li {
     position: relative;
-    left: 10px;
+    left: -5px;
+    top: -85px;
+    z-index: 999;
   }
 }
 
