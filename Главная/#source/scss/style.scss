@@ -305,9 +305,9 @@ margin: 0 auto;
 
 }
 .site-navigation-responsive ul  {
-position: fixed;
+
 font-size: 20px;
-position: fixed;
+
 
 
 width: 10%;
@@ -356,7 +356,7 @@ font-size: 15px;
 	left: 10px;
 }
 }
-.site-navigation-responsive ul li a:hover{
+.site-navigation-responsive ul li a:active{
 color:#11ABCC;
 
 
@@ -387,6 +387,9 @@ border-radius: 10px;
 .site-navigation-responsive ul li:hover ul{
 opacity:1;
 left:0px;
+-webkit-transition: 0.25s linear opacity;
+-moz-transition: 0.25s linear opacity;
+transition: 0.25s linear opacity;  
 }
 .site-navigation-responsive ul li ul li {
 display:block;
@@ -400,11 +403,6 @@ padding: 10px 10px;
 width:100%;
 color:#439DE0;
 }
-.site-navigation-responsive ul li ul li a:hover {
-background:#439DE0;
-color:#fff;
-}
-
 
 
 

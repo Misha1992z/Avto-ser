@@ -344,9 +344,7 @@ body {
 }
 
 .site-navigation-responsive ul {
-  position: fixed;
   font-size: 20px;
-  position: fixed;
   width: 10%;
   min-height: 0px;
   z-index: 60;
@@ -391,7 +389,7 @@ body {
   }
 }
 
-.site-navigation-responsive ul li a:hover {
+.site-navigation-responsive ul li a:active {
   color: #11ABCC;
   background: #F1F1F1;
 }
@@ -424,6 +422,9 @@ body {
 .site-navigation-responsive ul li:hover ul {
   opacity: 1;
   left: 0px;
+  -webkit-transition: 0.25s linear opacity;
+  -moz-transition: 0.25s linear opacity;
+  transition: 0.25s linear opacity;
 }
 
 .site-navigation-responsive ul li ul li {
@@ -438,11 +439,6 @@ body {
   padding: 10px 10px;
   width: 100%;
   color: #439DE0;
-}
-
-.site-navigation-responsive ul li ul li a:hover {
-  background: #439DE0;
-  color: #fff;
 }
 
 .container_contant {
